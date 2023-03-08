@@ -13,14 +13,14 @@
         //Console.WriteLine(sum);
 
         int limit = 999;
-        int result = SumDividedBy(3, limit)
-            + SumDividedBy(5, limit)
-            - SumDividedBy(15, limit);
+        int result = SumDivisibleBy(3, limit)
+            + SumDivisibleBy(5, limit)
+            - SumDivisibleBy(15, limit);
 
         Console.WriteLine(result);
     }
 
-    private static int SumDividedBy(int n, int limit)
+    private static int SumDivisibleBy(int n, int limit)
     {
         int p = limit / n;
         return n * (p * (p + 1)) / 2;
