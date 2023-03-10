@@ -1,4 +1,6 @@
-﻿internal class Program
+﻿// https://projecteuler.net/problem=1
+
+internal class Program
 {
     private static void Main(string[] args)
     {
