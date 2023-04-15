@@ -1,13 +1,14 @@
-﻿internal class MySolution
+﻿internal class Program
 {
     private static void Main(string[] args)
     {
         int limit = int.Parse(Console.ReadLine());
 
         Console.WriteLine(Fibonacci(1, 2, limit));
-
+        Console.WriteLine(Fibonacci(limit));        
     }
 
+    // My solution.
     public static int Fibonacci(int n1, int n2, int limit)
     {
         int sum = 0;
@@ -27,6 +28,25 @@
         }
         else
             sum = 0;
+        return sum;
+    }
+
+    // Official solution.
+    private static int Fibonacci(int limit)
+    {
+        int sum = 0;
+        int a = 1;
+        int b = 1;
+        int c = a + b;
+
+        while (c < limit) 
+        {
+            sum += c;
+            a = b + c;
+            b = c + a;
+            c = a + b;
+        }
+
         return sum;
     }
 
