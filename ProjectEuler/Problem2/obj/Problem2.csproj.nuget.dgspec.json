@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\repo\\ProjectEuler\\ProjectEuler\\Problem1\\Problem1.csproj": {}
+    "C:\\repo\\ProjectEuler\\ProjectEuler\\Problem2\\Problem2.csproj": {}
   },
   "projects": {
-    "C:\\repo\\ProjectEuler\\ProjectEuler\\Problem1\\Problem1.csproj": {
+    "C:\\repo\\ProjectEuler\\ProjectEuler\\Problem2\\Problem2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\repo\\ProjectEuler\\ProjectEuler\\Problem1\\Problem1.csproj",
-        "projectName": "Problem1",
-        "projectPath": "C:\\repo\\ProjectEuler\\ProjectEuler\\Problem1\\Problem1.csproj",
+        "projectUniqueName": "C:\\repo\\ProjectEuler\\ProjectEuler\\Problem2\\Problem2.csproj",
+        "projectName": "Problem2",
+        "projectPath": "C:\\repo\\ProjectEuler\\ProjectEuler\\Problem2\\Problem2.csproj",
         "packagesPath": "C:\\Users\\geiss\\.nuget\\packages\\",
-        "outputPath": "C:\\repo\\ProjectEuler\\ProjectEuler\\Problem1\\obj\\",
+        "outputPath": "C:\\repo\\ProjectEuler\\ProjectEuler\\Problem2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
